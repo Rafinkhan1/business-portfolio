@@ -38,7 +38,6 @@ header {
     font-family: 'Inter', sans-serif;
     text-align: center;
     width: 1600px;
-
 }
 
 .off {
@@ -98,9 +97,115 @@ header {
     padding-left: 126px;
     margin-top: 0;
 }
+
 .btn {
     margin-left: 126px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
 }
+
 .image {
     padding-top: 60px;
+}
+
+/* place-time-date selection section */
+.place-section {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    margin: 100px 100px 0 100px;
+    height: 482px;
+    font-family: Inter;
+}
+
+.set-place {
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 0;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    margin-top: 0;
+}
+
+.coloring-place-time {
+    color: red;
+}
+
+.second-btn {
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 608px;
+
+}
+
+/* Offer-coming-soon section */
+.coming-soon {
+    display: flex;
+    margin: 100px 100px 0 100px;
+    background: #FFF;
+    justify-content: space-between;
+}
+
+.offer {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    /* text-align: center; */
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.soon {
+    /* color: #070211;
+    font-family: 'Merriweather', serif;
+font-size: 48px;
+font-weight: 900; */
+color: #070211;
+font-family: 'Merriweather', serif;
+font-size: 48px;
+
+
+}
+.wishing{
+    color: rgba(7, 2, 17, 0.60);
+
+    font-family: 'Inter', sans-serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+width: 393px;
+}
+
+.new-offer {
+
+}
+
+.new-picture {
+    
+    border-radius: 364.844px;
+    
+    background: lightgray -91.279px 0px / 150.038% 100% no-repeat;
+    /* outline: 5px solid red; */
+}
+.year {
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+}
+.enjoy{
+    color: rgba(7, 2, 17, 0.60);
+font-family: 'Inter', sans-serif;
+font-weight: 400;
+width: 276px;
+font-size: 20px;
+font-weight: 400;
+}
+.happy-new-year {
+
 }
