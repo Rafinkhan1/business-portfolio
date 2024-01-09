@@ -439,11 +439,48 @@ font-weight: 600;
 color: #FFF;
 display: flex;
 justify-content: space-between;
-align-items: center;
+ align-items: center;
+ margin: 120px 290px 0 140px ; 
 }
 .frames{
     align-items: center;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 40px;
 }
 .call{
     align-items: center;
+}
+.all-rights-reserved{
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+margin: 0 140px 0 140px;
+}
+.location{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+line-height: 40px;
+width: 390px;
+}
+.logos{
+    text-align: center;
+   padding: 45px 0 45px 0;
+}
+hr.horizontal{
+    /* border-top: 0.01px solid gray; */
+    background: rgba(255, 255, 255, 0.15);
+    width: 1220px;
+    height: 1px;
+    border: none;
+}
+hr:hover{
+    color: cornflowerblue;
+    border: 2px solid cornflowerblue;
 }
